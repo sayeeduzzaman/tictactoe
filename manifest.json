@@ -1,17 +1,12 @@
 {
-  "name": "Tic Tac Toe",
-  "short_name": "TicTacToe",
-  "description": "A fun two-player Tic Tac Toe game with an unbeatable AI opponent. Install and play anytime!",
-  "start_url": "/",
+  "background_color": "#ffffff",
+  "description": "A fun Tic Tac Toe game. Play against a friend or challenge the AI!",
+  "dir": "ltr",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0d0d1a",
-  "theme_color": "#1a1a2e",
-  "lang": "en",
+  "name": "Tic Tac Toe",
+  "orientation": "any",
   "scope": "/",
-  "categories": ["games", "entertainment"],
-  "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ]
+  "short_name": "Tic Tac Toe",
+  "start_url": "https://sayeeduzzaman.github.io/tictactoe/",
+  "theme_color": "#1a1a2e"
 }
