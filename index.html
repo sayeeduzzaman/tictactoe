@@ -9,7 +9,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="Tic Tac Toe" />
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="https://sayeeduzzaman.github.io/tictactoe//manifest.json" />
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
     :root{--bg:#0d0d1a;--surface:#1a1a2e;--surface2:#16213e;--ax:#a78bfa;--ao:#34d399;--text:#f0f0ff;--muted:#6b6b8a;--border:rgba(255,255,255,0.08);--sz:min(28vw,110px);}
@@ -76,7 +76,7 @@ function us(){document.getElementById('sx').textContent=scores.X;document.getEle
 function ng(){board=Array(9).fill(null);cur='X';over=false;rb();ss("X's turn",'xt');}
 function ra(){scores={X:0,O:0,D:0};us();ng();}
 rb();
-if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(function(){});}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('https://sayeeduzzaman.github.io/tictactoe/sw.js').catch(function(){});}
 </script>
 </body>
 </html>
